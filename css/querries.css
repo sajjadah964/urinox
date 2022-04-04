@@ -17,6 +17,137 @@
     html {
         font-size: 11px;
     }
+/******************************************
+            Header  Section
+******************************************/
+.header {
+    height: autoS;
+}
+/******************************************
+            Nav top  Section
+******************************************/
+.nav-top {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+/******************************************
+            hero  Section
+******************************************/
+.hero {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.hero__absolute-image-wrapper {
+    width: auto;
+    height: auto;
+}
+/******************************************
+            Buying Product Section
+******************************************/
+.buying-products {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    height: auto;
+}
+.buying-products__image-wrapper {
+    width: auto;
+    height: auto;
+    position: relative;
+    top: 3rem;
+}
+.buying-products .grid--2-col--padding  {
+    padding-top: 4rem;
+}
+.content-image__wrapper {
+    width: auto;
+    height: auto;
+}
+/******************************************
+            Features Section
+******************************************/
+.features {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+/******************************************
+            Mobile Products Section
+******************************************/
+.mobile-products{
+    height: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.mobile-products .grid__content-col {
+    padding-top:0rem;
+    align-self: center;
+}
+.mobile-products__image-wrapper {
+    width: auto;
+    height: auto;
+    position:static;
+}
+/******************************************
+            Test Parameter Section
+******************************************/
+.test-parameter {
+    padding-top: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.test-parameter__image-wrapper {
+    width: auto;
+    height: auto;
+}
+/******************************************
+            Other Information Section
+******************************************/
+.other-information {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.single-information__image-wrapper {
+    width: auto;
+    height: auto;
+}
+/******************************************
+            Related Blogs Section
+******************************************/
+.blogs{
+    height: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.single-blog__image-wrapper {
+    width: auto;
+    height: auto;
+}
+.single-blog__content-wrapper {
+    width: auto;
+    position: relative;
+}
+/******************************************
+            Footer Top Section
+******************************************/
+.footer-top__grid {
+    column-gap: 3rem;
+}
+.footer-top {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.subscribe-form__input {
+    width: auto;
+}
+.footer-top__menus {
+    column-gap:2rem;
+}
+/******************************************
+            Footer Top Section
+******************************************/
+.footer-bottom {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
 }
 @media screen and (min-width: 310px) and (max-width: 479px) {
 /******************************************
