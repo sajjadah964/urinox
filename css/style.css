@@ -204,6 +204,9 @@
     align-items: center;
     justify-content: center;
 }
+.see-more a:hover {
+    color: #000;
+}
 /******************************************
             Mobile Products Section
 ******************************************/
@@ -451,6 +454,9 @@
 }
 .footer-top a {
     color: #fff;
+}
+.footer-top__menus a:hover {
+    color: #197DE6;
 }
 .footer-top__contact {
     display: grid;
