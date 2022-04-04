@@ -45,7 +45,7 @@
     background-size: cover;
 }
 /******************************************
-            Nav top  Section
+            hero  Section
 ******************************************/
 .hero h1 {
     margin-bottom: 1.875rem;
@@ -82,7 +82,7 @@
             Buying Product Section
 ******************************************/
 .buying-products {
-    height:93.75rem;
+    height:86.75rem;
 }
 .buying-products  .grid--2-col--padding {
     padding-top: 40rem;
@@ -118,6 +118,10 @@
 }
 .buying-products__image {
     position: relative;
+}
+.content-image__wrapper {
+    width: 36.25rem;
+    height:45.31rem;
 }
 .buying-products__image-wrapper {
     width: 73.125rem;
@@ -241,7 +245,7 @@
             Test Parameter  Section
 ******************************************/
 .test-parameter {
-    padding: 2.5rem 0;
+    padding-top: 12rem;
 }
 .test-parameter h2 {
     margin-bottom: 2.5rem;
@@ -255,7 +259,7 @@
     font-weight: 700;
 }
 /******************************************
-            Test Parameter  Section
+            Healt Facts  Section
 ******************************************/
 .health-facts {
     padding: 5rem 0;
@@ -276,11 +280,8 @@
     padding:0 4rem ;
 }
 /******************************************
-            Test Parameter  Section
+            Customer Comment  Section
 ******************************************/
-.test-parameter {
-    padding-top: 12rem;
-}
 .customer-comment {
     padding: 7.375rem;
     background-color: #F9F9F9;
@@ -359,16 +360,19 @@
     opacity: 0.5;
 }
 .single-blog__content {
+    position: relative;
+}
+.single-blog__content-wrapper {
     width:24.25rem;
     padding: 1.9rem;
     background-color: #fff;
     position: absolute;
-    top: 17rem;
+    top: -4rem;
     left: 50%;
     transform: translateX(-50%);
     /* box-shadow: 0px 30px 80px rgba(0, 0, 0, 0.1); */
 }
-.single-blog__content:hover {
+.single-blog__content-wrapper:hover {
     box-shadow: 0px 30px 80px rgba(0, 0, 0, 0.1);
 }
 .single-blog__content h5 {
@@ -479,6 +483,9 @@
 .footer-top__single-menu li:last-child {
     margin-bottom:0;
 }
+/******************************************
+            Footer Bottom  Section
+******************************************/
 .footer-bottom p {
     color: #fff;
     opacity: 0.5;

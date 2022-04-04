@@ -1,0 +1,202 @@
+@media screen and (max-width: 1366px) {
+    html {
+        font-size: 11.3px;
+    }
+}
+@media screen and (max-width: 1290px) {
+    html {
+        font-size: 11px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    html {
+        font-size: 10px;
+    }
+}
+@media screen and (min-width: 310px) and (max-width: 479px) {
+/******************************************
+            Header  Section
+******************************************/
+.header {
+    height: auto;
+}
+
+/******************************************
+            Nav top  Section
+******************************************/ 
+.nav-top {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.nav-top__icons {
+    column-gap: 1rem;
+}
+/******************************************
+            hero  Section
+******************************************/
+.hero {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.hero__content-wrapper {
+    padding-top: 2rem;
+}
+.hero .grid--2-col {
+    grid-template-columns: 1fr;
+}
+.hero__absolute-image-wrapper {
+    width: auto;
+    height: auto;
+}
+/******************************************
+            Buying Product Section
+******************************************/
+.add-cart{
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+.buying-products {
+    height:auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.buying-products__image-wrapper {
+    position: relative;
+    top: 3rem;
+    width: auto;
+    height: auto;
+}
+.buying-products__content {
+    padding: 0;
+}
+.buying-products .grid--2-col {
+    grid-template-columns: 1fr;
+    padding-top: 3rem;
+}
+.content-image__wrapper {
+    width: auto;
+    height: auto;
+}
+/******************************************
+            Features and Benefit Section
+******************************************/
+.features {
+    padding: 3rem 1rem;
+}
+.features .grid--4-col {
+    grid-template-columns: 1fr;
+}
+
+/******************************************
+            Mobile Products Section
+******************************************/
+.mobile-products {
+    padding: 3rem 1rem;
+    height: auto;
+}
+.mobile-products .grid__content-col {
+    padding-top: 0;
+}
+.mobile-products h3 {
+    margin-bottom: 1.3rem;
+}
+.mobile-products .grid--2-col {
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+}
+.mobile-products__image-wrapper {
+    position: static;
+    width: auto;
+    height: auto;
+}
+/******************************************
+            Test Parameter  Section
+******************************************/
+.test-parameter {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 3rem;
+}
+.test-parameter__image-wrapper {
+    width: auto;
+}
+.test-parameter .grid--2-col {
+    grid-template-columns: 1fr;
+}
+/******************************************
+            Healt Facts  Section
+******************************************/
+.health-facts {
+    padding: 3rem 1rem;
+}
+.health-facts__flex {
+    flex-direction:column;
+    row-gap: 2rem;
+    padding: 0;
+}
+/******************************************
+            Customer Comment  Section
+******************************************/
+.customer-comment {
+    padding:3rem 1rem;
+}
+.customer-comment .grid--2-col {
+    grid-template-columns: 1fr;
+}
+
+/******************************************
+            Other Information  Section
+******************************************/
+.other-information {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 3rem;
+}
+.other-information .grid--4-col {
+    grid-template-columns: 1fr !important;
+}
+.single-information__image-wrapper {
+    width: auto;
+    height: auto;
+}
+/******************************************
+            Related Blog Section
+******************************************/
+.blogs {
+    height: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 3rem;
+}
+.blogs .grid--3-col {
+    grid-template-columns: 1fr;
+}
+.single-blog__image-wrapper {
+    width: auto;
+    height: auto;
+}
+.single-blog__content-wrapper {
+    position: inherit;
+    width: auto;
+}
+
+/******************************************
+            Footer top  Section
+******************************************/
+.footer-top {
+    padding-left:1rem;
+    padding-right: 1rem;
+}
+.footer-top__grid{
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+}
+
+/******************************************
+            Footer Bottom  Section
+******************************************/
+.footer-bottom {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+}
