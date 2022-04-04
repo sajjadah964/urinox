@@ -200,3 +200,171 @@
     padding-right: 1rem;
 }
 }
+@media screen and (min-width: 480px) and (max-width: 767px) {
+/******************************************
+            Header  Section
+******************************************/
+.header {
+    height: auto;
+}
+
+/******************************************
+            Nav top  Section
+******************************************/ 
+.nav-top {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+/******************************************
+            hero  Section
+******************************************/
+.hero {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.hero .grid--2-col {
+    grid-template-columns: 1fr;
+}
+.hero__content-wrapper {
+    padding-top: 3rem;
+}
+.hero__absolute-image-wrapper {
+    width: auto;
+    height: auto;
+}
+/******************************************
+            Buying Product Section
+******************************************/
+.buying-products__image-wrapper {
+    width: auto;
+    height: auto;
+    position: relative;
+    top: 3rem;
+}
+.buying-products {
+    height: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.buying-products .grid--2-col--padding {
+    padding-top: 5rem;
+}
+.content-image__wrapper {
+    width: auto;
+    height: auto;
+}
+.buying-products .grid--2-col {
+    grid-template-columns: 1fr;
+}
+.buying-products__content {
+    padding-top: 0;
+}
+/******************************************
+            Features and Benefit Section
+******************************************/
+.features {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.features .grid--4-col {
+    grid-template-columns: 1fr 1fr;
+}
+/******************************************
+            Mobile Products Section
+******************************************/
+.mobile-products {
+    height: auto;
+    padding: 3rem 1.5rem;
+}
+.mobile-products .grid__content-col {
+    padding-top: 0;
+}
+.mobile-products__image-wrapper {
+    width: auto;
+    height: auto;
+    position: static;
+}
+.mobile-products .grid--2-col {
+    grid-template-columns: 1fr;
+}
+/******************************************
+            Test Parameter  Section
+******************************************/
+.test-parameter {
+    padding-top: 3rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.test-parameter__image-wrapper {
+    height: auto;
+    width: auto;
+}
+/******************************************
+            Healt Facts  Section
+******************************************/
+.health-facts {
+    padding: 3rem 1.5rem;
+}
+.health-facts__flex {
+    padding: 0;
+}
+
+/******************************************
+            Customer Comment  Section
+******************************************/
+.customer-comment {
+    padding: 3rem 1.5rem;
+}
+
+/******************************************
+            Other Information  Section
+******************************************/
+.other-information {
+    padding: 3rem 1.5rem 0 1.5rem;
+}
+.single-information__image-wrapper {
+    width: auto;
+    height: auto;
+}
+.other-information .grid--4-col {
+    grid-template-columns: 1fr 1fr;
+}
+/******************************************
+            Related Blog Section
+******************************************/
+.blogs {
+    height: auto;
+    padding-top: 3rem;
+}
+.blogs .grid--3-col {
+    grid-template-columns: 1fr ;
+}
+.single-blog__image-wrapper {
+    width: auto;
+    height: auto;
+}
+.single-blog__content-wrapper {
+    width: auto;
+    position: relative;
+}
+/******************************************
+            Footer top  Section
+******************************************/
+.footer-top {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.footer-top__grid {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+    column-gap: 3rem;
+}
+/******************************************
+            Footer Bottom  Section
+******************************************/
+.footer-bottom {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+}
