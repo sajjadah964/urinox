@@ -305,6 +305,7 @@
 .health-facts h1 {
     margin-bottom: 1rem;
     color: #197DE6;
+    font-size: 5rem;
 }
 .health-facts h2 {
     margin-bottom: 1.5rem;
@@ -435,7 +436,7 @@
 .footer-top {
     padding: 3.75rem 0;
 }
-.footer-top__grid {
+.footer-top__wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 5rem;
@@ -447,9 +448,6 @@
 .footer-top__contact h5 {
     margin-bottom: 2.25rem;
 }
-/* .footer-top__contact p {
-    margin-bottom: 1rem;
-} */
 .footer-top__logo {
     width: 11.31rem;
     height: 1.875rem;
@@ -531,7 +529,7 @@
     color: #fff;
     opacity: 0.5;
 }
-.footer-bottom__flex {
+.footer-bottom__wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;

@@ -130,7 +130,7 @@
 /******************************************
             Footer Top Section
 ******************************************/
-.footer-top__grid {
+.footer-top__wrapper {
     column-gap: 3rem;
 }
 .footer-top {
@@ -285,7 +285,7 @@
             Healt Facts  Section
 ******************************************/
 .health-facts {
-    padding: 3rem 1rem;
+    padding: 3rem 1rem 3.5rem;
 }
 .health-facts__wrapper {
     flex-direction:column;
@@ -293,7 +293,8 @@
     padding: 0;
 }
 .health-facts h1 {
-    font-size: 5rem;
+    font-size: 4rem;
+    line-height: 1.5;
     text-align: left;
 }
 .health-facts p {
@@ -363,7 +364,7 @@
     padding-left:1rem;
     padding-right: 1rem;
 }
-.footer-top__grid{
+.footer-top__wrapper{
     grid-template-columns: 1fr;
     row-gap: 2rem;
 }
@@ -543,7 +544,7 @@
     padding-left: 1.5rem;
     padding-right: 1.5rem;
 }
-.footer-top__grid {
+.footer-top__wrapper {
     grid-template-columns: 1fr 1fr;
     row-gap: 2rem;
     column-gap: 3rem;
