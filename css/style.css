@@ -41,11 +41,11 @@
 }
 .nav-wrapper__logo a {
     display: block;
-    width:11.31rem;
+    /* width:11.31rem;
     height:1.875rem;
     text-indent: -900000px;
     background-image: url(../images/logo.png);
-    background-size: cover;
+    background-size: cover; */
 }
 /******************************************
             hero  Section
