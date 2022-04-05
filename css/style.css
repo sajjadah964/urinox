@@ -58,8 +58,9 @@
 }
 .hero-button__wrapper {
     width: 13.06rem;
-    background-color: #1C1C1E;
-    border-radius:3.75rem;
+}
+.hero-button__wrapper:hover{
+    color: #fff;
 }
 .hero-button__wrapper img {
     width: 1.5rem;
@@ -71,8 +72,18 @@
     justify-content: space-between;
     padding: 0 2.5rem;
     height: 5.68rem;
-    color: #fff;
     font-size: 1.3rem;
+    background-color: #fff;
+    /* border: 1px solid #1C1C1E; */
+    border-radius:3.75rem;
+}
+.button-hero:hover{
+    color: #fff;
+    background-color: #1C1C1E;
+}
+.button-hero img {
+    background-color: #1C1C1E;
+    border-radius: 10rem;
 }
 .hero__absolute-image-wrapper {
     width: 43.125rem;
@@ -139,18 +150,20 @@
 } 
 .button-store {
     height: 4rem;
-    line-height: 4rem;
+    line-height: 0rem;
     border: 1px solid #1C1C1E;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
+.button-store:hover {
+    color:#fff;
+    background-color: #000;
+}
 .button-store--1 {
     width:10.93rem;
 }
 .button-store--2 {
-    background-color: #1C1C1E;
-    color: #fff;
     width: 11.125rem;
 }
 .button-store--3 {
@@ -159,6 +172,25 @@
 .add-cart__button-wrapper img {
     width: 1.5rem;
     height: 1.5rem;
+    background: black;
+    border-radius: 43rem;
+}
+.add-cart__button-wrapper span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.button-counter {
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 1px solid #1C1C1E;
+    border-radius: 0.5rem;
+    position: relative;
+}
+.button-counter:hover {
+    color: #fff;
+    border: 1px solid #fff;
 }
 /******************************************
             Features and Benefit Section
