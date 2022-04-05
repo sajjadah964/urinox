@@ -181,7 +181,7 @@
     text-align: left;
 }
 .hero__content-wrapper {
-    padding-top: 2rem;
+    padding-top: 0rem;
 }
 .hero .grid--2-col {
     grid-template-columns: 1fr;
