@@ -10,9 +10,12 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Urinox</title>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/querries.css">
+
 </head>
 
 <body>
@@ -21,7 +24,7 @@
             <div class="nav">
                 <div class="container">
                     <div class="nav-wrapper">
-                        <ul class="nav-wrapper__menu">
+                        <ul class="nav__menu" id="myLinks">
                             <li>
                                 <a href="#">
                                     <img src="images/menu-logo.png" alt="" srcset="">
@@ -29,6 +32,10 @@
                             </li>
                             <li><a href="#" class="text-color-white"> Menu</a></li>
                         </ul>
+                        <div class="mobile-icon-wrapper">
+                            <img src="images/menu.png" alt="" srcset="" onclick="myFunction()" id="open-menu">
+                            <!-- <i class="fa fa-bars" onclick="myFunction()" id="open-menu"></i> -->
+                        </div>
                         <h2 class="nav__logo">
                             <a href="#">Diagnox</a>
                         </h2>
@@ -569,6 +576,8 @@
             </div>
         </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/custom.js"></script>
 </body>
 
 </html>

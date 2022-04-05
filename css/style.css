@@ -17,10 +17,13 @@
     justify-content: space-between;
     align-items: center;
 }
-.nav-wrapper__menu {
+.nav__menu {
     display: flex;
     column-gap:0.625rem;
     align-items: center;
+}
+.mobile-icon-wrapper {
+    display: none;
 }
 .nav__icons {
     display: flex;
