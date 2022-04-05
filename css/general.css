@@ -108,6 +108,87 @@ h6 {
     line-height: 1.3125rem;
 }
 /*********************************
+             Padding
+**********************************/
+.padding-small {
+    padding: 1rem;
+}
+.padding-medium {
+    padding: 2rem;
+}
+.padding-large {
+    padding: 3rem;
+}
+.padding--horizontal {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.padding--vertical {
+    padding-left: 0;
+    padding-right: 0;
+}
+.padding--top {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+.padding--bottom {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+}
+.padding--left {
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+.padding--right {
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+/*********************************
+             Margin
+**********************************/
+.margin-small {
+    margin: 1rem;
+}
+.margin-medium {
+    margin: 2rem;
+}
+.margin-large {
+    margin: 3rem;
+}
+.margin--horizontal {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.margin--vertical {
+    margin-left: 0;
+    margin-right: 0;
+}
+.margin--top {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+.margin--bottom {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+.margin--left {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+.margin--right {
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/*********************************
              Text-size
 **********************************/
 .text-size-small {

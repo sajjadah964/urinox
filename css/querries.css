@@ -21,12 +21,12 @@
             Header  Section
 ******************************************/
 .header {
-    height: autoS;
+    height: auto;
 }
 /******************************************
             Nav top  Section
 ******************************************/
-.nav-top {
+.nav {
     padding-left: 2rem;
     padding-right: 2rem;
 }
@@ -41,26 +41,28 @@
     width: auto;
     height: auto;
 }
+.hero__content-wrapper {
+    padding-top: 0;
+}
 /******************************************
-            Buying Product Section
+            store Section
 ******************************************/
-.buying-products {
+.store {
     padding-left: 2rem;
     padding-right: 2rem;
     height: auto;
 }
-.buying-products__image-wrapper {
-    width: auto;
-    height: auto;
+.store__video-wrapper iframe{
+    width:67rem;
     position: relative;
     top: 3rem;
 }
-.buying-products .grid--2-col--padding  {
-    padding-top: 4rem;
-}
-.content-image__wrapper {
+.store__image-wrapper {
     width: auto;
     height: auto;
+}
+.store .grid--2-col {
+    padding-top: 5rem;
 }
 /******************************************
             Features Section
@@ -75,8 +77,7 @@
 ******************************************/
 .mobile-products{
     height: auto;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding: 2rem;
 }
 .mobile-products .grid__content-col {
     padding-top:0rem;
@@ -161,11 +162,11 @@
 /******************************************
             Nav top  Section
 ******************************************/ 
-.nav-top {
+.nav {
     padding-left: 1rem;
     padding-right: 1rem;
 }
-.nav-top__icons {
+.nav__icons {
     column-gap: 1rem;
 }
 /******************************************
@@ -174,6 +175,10 @@
 .hero {
     padding-left: 1rem;
     padding-right: 1rem;
+}
+.hero h1 {
+    font-size: 5rem;
+    text-align: left;
 }
 .hero__content-wrapper {
     padding-top: 2rem;
@@ -186,31 +191,35 @@
     height: auto;
 }
 /******************************************
-            Buying Product Section
+            Store Section
 ******************************************/
 .add-cart{
     grid-template-columns: 1fr;
     justify-items: center;
 }
-.buying-products {
+.store {
     height:auto;
     padding-left: 1rem;
     padding-right: 1rem;
 }
-.buying-products__image-wrapper {
+.store h2 {
+    font-size: 3rem;
+    text-align: left;
+}
+.store__video-wrapper iframe{
     position: relative;
     top: 3rem;
     width: auto;
     height: auto;
 }
-.buying-products__content {
+.store__content {
     padding: 0;
 }
-.buying-products .grid--2-col {
+.store .grid--2-col {
     grid-template-columns: 1fr;
     padding-top: 3rem;
 }
-.content-image__wrapper {
+.store__image-wrapper {
     width: auto;
     height: auto;
 }
@@ -223,7 +232,14 @@
 .features .grid--4-col {
     grid-template-columns: 1fr;
 }
-
+.features h2 {
+    font-size: 3rem;
+    line-height: 3.14rem;
+    text-align: left;
+}
+.features p {
+    text-align: left;
+}
 /******************************************
             Mobile Products Section
 ******************************************/
@@ -243,8 +259,9 @@
 }
 .mobile-products__image-wrapper {
     position: static;
-    width: auto;
-    height: auto;
+    width:21rem;
+    height: 25rem;
+    margin: auto;
 }
 /******************************************
             Test Parameter  Section
@@ -260,22 +277,37 @@
 .test-parameter .grid--2-col {
     grid-template-columns: 1fr;
 }
+.test-parameter h2 {
+    font-size: 3rem;
+    text-align: left;
+}
 /******************************************
             Healt Facts  Section
 ******************************************/
 .health-facts {
     padding: 3rem 1rem;
 }
-.health-facts__flex {
+.health-facts__wrapper {
     flex-direction:column;
     row-gap: 2rem;
     padding: 0;
+}
+.health-facts h1 {
+    font-size: 5rem;
+    text-align: left;
+}
+.health-facts p {
+    text-align: left;
+}
+.health-facts h2 {
+    font-size: 3rem;
+    text-align: left;
 }
 /******************************************
             Customer Comment  Section
 ******************************************/
 .customer-comment {
-    padding:3rem 1rem;
+    padding:4rem 1rem;
 }
 .customer-comment .grid--2-col {
     grid-template-columns: 1fr;
@@ -295,6 +327,10 @@
 .single-information__image-wrapper {
     width: auto;
     height: auto;
+}
+.other-information h2 {
+    font-size: 3rem;
+    text-align: left;
 }
 /******************************************
             Related Blog Section
@@ -316,7 +352,10 @@
     position: inherit;
     width: auto;
 }
-
+.blogs h2 {
+    font-size: 3rem;
+    text-align: left;
+}
 /******************************************
             Footer top  Section
 ******************************************/
@@ -371,31 +410,32 @@
     height: auto;
 }
 /******************************************
-            Buying Product Section
+            store Section
 ******************************************/
-.buying-products__image-wrapper {
+.store__image-wrapper {
     width: auto;
     height: auto;
     position: relative;
     top: 3rem;
 }
-.buying-products {
+.store {
     height: auto;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
 }
-.buying-products .grid--2-col--padding {
-    padding-top: 5rem;
-}
-.content-image__wrapper {
+.store__image-wrapper {
     width: auto;
     height: auto;
 }
-.buying-products .grid--2-col {
+.store .grid--2-col {
     grid-template-columns: 1fr;
+    padding-top: 5rem;
 }
-.buying-products__content {
+.store__content {
     padding-top: 0;
+}
+.store__video-wrapper iframe {
+    width: 40rem;
 }
 /******************************************
             Features and Benefit Section
@@ -406,6 +446,12 @@
 }
 .features .grid--4-col {
     grid-template-columns: 1fr 1fr;
+}
+.features h4 {
+    text-align: left;
+}
+.features p {
+    text-align: left;
 }
 /******************************************
             Mobile Products Section
@@ -418,12 +464,14 @@
     padding-top: 0;
 }
 .mobile-products__image-wrapper {
-    width: auto;
-    height: auto;
+    width:25rem;
+    height:34rem;
+    margin: auto;
     position: static;
 }
 .mobile-products .grid--2-col {
     grid-template-columns: 1fr;
+    row-gap: 5rem;
 }
 /******************************************
             Test Parameter  Section
@@ -443,10 +491,13 @@
 .health-facts {
     padding: 3rem 1.5rem;
 }
-.health-facts__flex {
+.health-facts__wrapper {
     padding: 0;
+    column-gap: 9rem;
 }
-
+.health-facts h1 {
+    font-size: 5rem;
+}
 /******************************************
             Customer Comment  Section
 ******************************************/

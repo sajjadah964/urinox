@@ -8,35 +8,35 @@
 /******************************************
             Nav top  Section
 ******************************************/
-.nav-top {
+.nav {
     padding:3.5rem 0;
     /* line-height: 7rem; */
 }
-.nav-top__flex {
+.nav-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.nav-top__menu {
+.nav-wrapper__menu {
     display: flex;
     column-gap:0.625rem;
     align-items: center;
 }
-.nav-top__icons {
+.nav__icons {
     display: flex;
     column-gap: 3.625rem;
     cursor: pointer;
 }
-.nav-top__menu a {
+.nav-wrapper__menu a {
     font-size: 1.125rem;
     text-transform: uppercase;
     font-weight: 700;
 }
-.nav-top__logo {
+.nav__logo {
     width: 11.31rem;
     height: 1.875rem;
 }
-.nav-top__logo a {
+.nav__logo a {
     display: block;
     width:11.31rem;
     height:1.875rem;
@@ -81,10 +81,10 @@
 /******************************************
             Buying Product Section
 ******************************************/
-.buying-products {
-    height:86.75rem;
+.store {
+    height:82.75rem;
 }
-.buying-products  .grid--2-col--padding {
+.store  .grid--2-col {
     padding-top: 40rem;
 }
 .products-price {
@@ -92,16 +92,16 @@
     justify-content: space-between;
     margin-bottom: 1rem;
 }
-.buying-products__packs {
+.store__packs {
     display: grid;
     grid-template-columns: auto auto 1fr;
     grid-gap: 0.8rem;
     margin-bottom: 2.5rem;
 }
-.buying-products__content {
+.store__content {
     padding-top: 5rem;
 }
-.buying-products__packs-wrapper {
+.store__packs-wrapper {
     width:7.5rem;
 }
 .button-packs {
@@ -116,14 +116,14 @@
     color: #fff;
     transition:0.2s ease-in;
 }
-.buying-products__image {
+.store__video {
     position: relative;
 }
-.content-image__wrapper {
+.store__image-wrapper {
     width: 36.25rem;
     height:45.31rem;
 }
-.buying-products__image-wrapper {
+.store__video-wrapper iframe{
     width: 73.125rem;
     height: 41.18rem;
     position: absolute;
@@ -137,7 +137,7 @@
     grid-gap:1.7rem;
     margin-bottom: 2.2rem;
 } 
-.button-buying-products {
+.button-store {
     height: 4rem;
     line-height: 4rem;
     border: 1px solid #1C1C1E;
@@ -145,15 +145,15 @@
     justify-content: space-evenly;
     align-items: center;
 }
-.button-buying-products--1 {
+.button-store--1 {
     width:10.93rem;
 }
-.button-buying-products--2 {
+.button-store--2 {
     background-color: #1C1C1E;
     color: #fff;
     width: 11.125rem;
 }
-.button-buying-products--3 {
+.button-store--3 {
     width: 12.68rem;
 }
 .add-cart__button-wrapper img {
@@ -223,6 +223,9 @@
     column-gap: 2rem;
     align-items: center;
 }
+.mobile-products .grid--2-col {
+    column-gap: 5rem;
+}
 .playstore-button__wrapper--app {
     height: 3.625rem;
     width:11rem;
@@ -236,7 +239,7 @@
     height:52.06rem;
     position: absolute;
     top: -7rem;
-    left: 0;
+    left:3rem;
 }
 .mobile-products .grid__image-col {
     position:relative;
@@ -272,10 +275,10 @@
     color: #197DE6;
 }
 .health-facts h2 {
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.5rem;
     text-align: center;
 }
-.health-facts__flex {
+.health-facts__wrapper {
     display: flex;
     justify-content: space-between;
     text-align: center;

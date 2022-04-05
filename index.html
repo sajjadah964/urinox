@@ -18,10 +18,10 @@
 <body>
     <header class="header">
         <nav>
-            <div class="nav-top">
+            <div class="nav">
                 <div class="container">
-                    <div class="nav-top__flex">
-                        <ul class="nav-top__menu">
+                    <div class="nav-wrapper">
+                        <ul class="nav-wrapper__menu">
                             <li>
                                 <a href="#">
                                     <img src="images/menu-logo.png" alt="" srcset="">
@@ -29,10 +29,10 @@
                             </li>
                             <li><a href="#" class="text-color-white"> Menu</a></li>
                         </ul>
-                        <h2 class="nav-top__logo">
+                        <h2 class="nav__logo">
                             <a href="#">Diagnox</a>
                         </h2>
-                        <div class="nav-top__icons">
+                        <div class="nav__icons">
                             <div class="icon-image-wrapper">
                                 <img src="images/search-normal.png" alt="" srcset="">
                             </div>
@@ -83,57 +83,58 @@
 
     <main>
 
-        <section class="buying-products">
+        <section class="store">
             <div class="container">
                 <div class="section-header">
-                    <div class="buying-products__image">
-                        <div class="buying-products__image-wrapper">
-                            <img src="images/media-player.png" class="image-100" alt="" srcset="">
+                    <div class="store__video">
+                        <div class="store__video-wrapper">
+                            <iframe  src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                            </iframe>
                         </div>
                     </div>
                 </div>
                 <div class="section-content">
-                    <div class="grid grid--2-col grid--2-col--padding">
+                    <div class="grid grid--2-col">
                         <div class="grid__image-col">
-                            <div class="content-image">
-                                <div class="content-image__wrapper">
+                            <div class="store__image">
+                                <div class="store__image-wrapper">
                                     <img src="images/content-img.png" class="image-100" alt="" srcset="">
                                 </div>
                             </div>
                         </div>
                         <div class="grid__content-col">
-                            <div class="buying-products__content">
+                            <div class="store__content">
                                 <div class="products-price">
                                     <h2>Urinox-10</h2>
                                     <h2 class="text-color-primary">$11.95</h2>
                                 </div>
-                                <div class="buying-products__packs">
-                                    <div class="buying-products__packs-wrapper">
+                                <div class="store__packs">
+                                    <div class="store__packs-wrapper">
                                         <a href="" class="button button-packs">20 packs</a>
                                     </div>
-                                    <div class="buying-products__packs-wrapper">
+                                    <div class="store__packs-wrapper">
                                         <a href="" class="button button-packs">30 packs</a>
                                     </div>
-                                    <div class="buying-products__packs-wrapper">
+                                    <div class="store__packs-wrapper">
                                         <a href="" class="button button-packs">60 packs</a>
                                     </div>
                                 </div>
                                 <div class="add-cart">
                                     <div class="add-cart__button-wrapper">
-                                        <a href="" class="button button-buying-products button-buying-products--1">
+                                        <a href="" class="button button-store button-store--1">
                                             <img src="images/minus-square.png" class="image-100" alt="" srcset="">
                                             1
                                             <img src="images/add-square.png" class="image-100" alt="" srcset="">
                                         </a>
                                     </div>
                                     <div class="add-cart__button-wrapper">
-                                        <a href="" class="button button-buying-products button-buying-products--2">
+                                        <a href="" class="button button-store button-store--2">
                                             Buy now
                                             <img src="images/shopping-bag.png" class="image-100" alt="" srcset="">
                                         </a>
                                     </div>
                                     <div class="add-cart__button-wrapper">
-                                        <a href="" class="button  button-buying-products button-buying-products--3">
+                                        <a href="" class="button  button-store button-store--3">
                                             Add to cart
                                             <img src="images/add-square.png" alt="" srcset="">
                                         </a>
@@ -172,13 +173,6 @@
                                 <p>Urinox-10 test strips are lined with 10 reagent pads to check different urine
                                     parameters for a broad range of applications and health needs...
                                 </p>
-                                <div class="see-more">
-                                    <a href="">
-                                        See more
-                                        <i class="fa fa-arrow-down"></i>
-                                    </a>
-
-                                </div>
                             </div>
                         </div>
                         <div class="grid__content-col">
@@ -190,13 +184,6 @@
                                 <p>Urinox-10 test strips are lined with 10 reagent pads to check different urine
                                     parameters for a broad range of applications and health needs...
                                 </p>
-                                <div class="see-more">
-                                    <a href="">
-                                        See more
-                                        <i class="fa fa-arrow-down"></i>
-                                    </a>
-
-                                </div>
                             </div>
                         </div>
                         <div class="grid__content-col">
@@ -208,13 +195,6 @@
                                 <p>Urinox-10 test strips are lined with 10 reagent pads to check different urine
                                     parameters for a broad range of applications and health needs...
                                 </p>
-                                <div class="see-more">
-                                    <a href="">
-                                        See more
-                                        <i class="fa fa-arrow-down"></i>
-                                    </a>
-
-                                </div>
                             </div>
                         </div>
                         <div class="grid__content-col">
@@ -226,13 +206,6 @@
                                 <p>Urinox-10 test strips are lined with 10 reagent pads to check different urine
                                     parameters for a broad range of applications and health needs...
                                 </p>
-                                <div class="see-more">
-                                    <a href="">
-                                        See more
-                                        <i class="fa fa-arrow-down"></i>
-                                    </a>
-
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -301,13 +274,13 @@
                     <h2>Health facts</h2>
                 </div>
                 <div class="section-content">
-                    <div class="health-facts__flex">
-                        <div class="health-cost">
+                    <div class="health-facts__wrapper">
+                        <div class="health-facts__content">
                             <h1> $50+</h1>
                             <p>The cost of urine culture ($50+) is significantly higher compared to urine strip testing
                                 (< $1 per test). </p>
                         </div>
-                        <div class="health-cost">
+                        <div class="health-facts__content">
                             <h1>$100+</h1>
                             <p>Regular urinalysis can help in early detection of wide range of diseases and can
                                 potentially save $100+ billion in health care.
