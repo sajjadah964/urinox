@@ -17,15 +17,15 @@
     justify-content: space-between;
     align-items: center;
 }
-.nav__menu {
+.nav-wrapper__menu {
     display: flex;
     column-gap:0.625rem;
     align-items: center;
 }
-.mobile-icon-wrapper {
+.nav-wrapper__mobile-bar {
     display: none;
 }
-.nav__icons {
+.nav-wrapper__icons {
     display: flex;
     column-gap: 3.625rem;
     cursor: pointer;
@@ -35,11 +35,11 @@
     text-transform: uppercase;
     font-weight: 700;
 }
-.nav__logo {
+.nav-wrapper__logo {
     width: 11.31rem;
     height: 1.875rem;
 }
-.nav__logo a {
+.nav-wrapper__logo a {
     display: block;
     width:11.31rem;
     height:1.875rem;
