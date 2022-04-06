@@ -262,6 +262,7 @@
 }
 .mobile-products .grid--2-col {
     column-gap: 5rem;
+    grid-template-columns: 47rem 1fr;
 }
 .playstore-button__wrapper--app {
     height: 3.625rem;
@@ -272,7 +273,7 @@
     width:12.625rem;
 }
 .mobile-products__image-wrapper {
-    width:30rem;
+    width:32rem;
     height:52.06rem;
     position: absolute;
     top: -7rem;
@@ -422,6 +423,9 @@
 .single-blog__content h5 {
     margin-bottom: 1rem;
 }
+.single-blog__content-wrapper p{
+    margin-bottom: 0.8rem;
+}
 .blog-date{
     display: grid;
     grid-template-columns: auto auto 1fr;
@@ -434,6 +438,17 @@
     height: 0.375rem;
     background-color: #636366;
     border-radius:1rem;
+}
+.blog__see-more {
+    display: none;
+}
+
+.blog__see-more a{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    grid-gap: 1rem;
+    color: #197DE6;
 }
 /******************************************
             Footer top  Section
