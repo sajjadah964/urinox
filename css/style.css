@@ -431,7 +431,7 @@
     grid-template-columns: auto auto 1fr;
     grid-gap: 1rem;
     align-items: center;
-    margin-bottom: 1rem;
+    margin-bottom: 0.6rem;
 }
 .blog-date__box {
     width: 0.375rem;
